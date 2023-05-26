@@ -1,0 +1,20 @@
+Screen1 As screen:
+
+    Button1 As button:
+        Text: ="New Flight"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Button2 As button:
+        Text: ="Confirm Flight"
+        X: =336
+        Y: =40
+        ZIndex: =2
+
+    Button3 As button:
+        Text: ="Confirm Flight"
+        X: =626
+        Y: =40
+        ZIndex: =3
+
