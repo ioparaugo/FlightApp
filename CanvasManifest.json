@@ -109,16 +109,15 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "378aaa76-2437-4c7d-b58f-7f77710c02e4",
-    "Id": "ccbc1fdf-b20e-42f1-b778-f3bf63773255",
+    "Id": "d7f9c781-7411-40ad-9825-3c168a5b31af",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Flight+Scheduler+App.msapp",
+    "Name": "Flight+Scheduler+App-v3.msapp",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "Flight Scheduler App",
+    "AppName": "Flight Scheduler App-v3",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -129,6 +128,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "Screen2"
   ]
 }
