@@ -97,7 +97,7 @@
     },
     "Author": "",
     "BindingErrorCount": 0,
-    "ContainsThirdPartyPcfControls": true,
+    "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
     "DocumentLayoutHeight": 768,
@@ -109,10 +109,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "378aaa76-2437-4c7d-b58f-7f77710c02e4",
-    "Id": "b37651fe-5aba-4ff6-a45f-dc9470bb4569",
+    "Id": "ccbc1fdf-b20e-42f1-b778-f3bf63773255",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Flight+Scheduler+AppV2.msapp",
+    "Name": "Flight+Scheduler+App.msapp",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
   },
@@ -128,7 +129,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2"
+    "Screen1"
   ]
 }
