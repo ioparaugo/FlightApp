@@ -14,7 +14,7 @@ Screen1 As screen:
 
     Button3 As button:
         Text: ="Confirm Flight"
-        X: =626
+        X: =636
         Y: =40
         ZIndex: =3
 
