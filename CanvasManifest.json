@@ -109,10 +109,10 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "378aaa76-2437-4c7d-b58f-7f77710c02e4",
-    "Id": "750a6485-2150-4762-9bae-969a3babe719",
+    "Id": "4746b36f-654f-4a08-be84-c0d44bafcc59",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "Flight+Scheduler+App+Developer1.msapp",
+    "Name": "Flight+Scheduler+App.msapp",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
   },
