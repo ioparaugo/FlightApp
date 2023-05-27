@@ -32,6 +32,63 @@
             ZIndex: =1
 
             "FluentDetailsList1 As 'Fluent Details List (1.0.19)'.pcfdataset":
+                columns_Items: |-
+                    =Table(
+                        {
+                            ColName: "name",
+                            ColDisplayName: "Name",
+                            ColWidth: 200,
+                            ColSortable: true,
+                            ColIsBold: true,
+                            ColResizable: true
+                        },{
+                            ColName: "address1_city",
+                            ColDisplayName: "City:",
+                            ColShowAsSubTextOf: "name"
+                        },{
+                            ColName: "address1_country",
+                            ColDisplayName: "Country:",
+                            ColShowAsSubTextOf: "name"
+                        },{
+                            ColName: "telephone1",
+                            ColDisplayName: "Telephone",
+                            ColWidth: 100,
+                            ColSortable: true,
+                            ColResizable: true
+                        },{
+                            ColName: "primarycontactid",
+                            ColDisplayName: "Primary Contact",
+                            ColWidth: 200,
+                            ColSortable: true,
+                            ColSortBy: "_primarycontactid_value",
+                            ColResizable: true,
+                            ColCellType: "link"
+                        },
+                        {
+                            ColName: "websiteurl",
+                            ColDisplayName: "Website",
+                            ColWidth: 200,
+                            ColSortable: true,
+                            ColResizable: true,
+                            ColCellType: "link"
+                        },
+                    
+                        {
+                            ColName: "emailaddress1",
+                            ColDisplayName: "Email",
+                            ColWidth: 200,
+                            ColSortable: true,
+                            ColResizable: true
+                        },
+                        {
+                            ColName: "accountnumber",
+                            ColDisplayName: "Account Number",
+                            ColWidth: 200,
+                            ColSortable: true,
+                            ColResizable: true
+                        }
+                        
+                    )
                 DisplayMode: =DisplayMode.Edit
                 Height: =502
                 Items: =Accounts
@@ -72,4 +129,28 @@
                     FieldVariantName: ="complexTypeColumn"
                     Order: =4
                     ZIndex: =9
+
+                Account1 As pcfDataField.textualColumn:
+                    FieldDisplayName: ="Account"
+                    FieldName: ="accountid"
+                    FieldType: ="g"
+                    FieldVariantName: ="textualColumn"
+                    Order: =5
+                    ZIndex: =10
+
+                "'Account Number1' As pcfDataField.textualColumn":
+                    FieldDisplayName: ="Account Number"
+                    FieldName: ="accountnumber"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =6
+                    ZIndex: =11
+
+                "'Address 11' As pcfDataField.textualColumn":
+                    FieldDisplayName: ="Address 1"
+                    FieldName: ="address1_composite"
+                    FieldType: ="s"
+                    FieldVariantName: ="textualColumn"
+                    Order: =7
+                    ZIndex: =12
 
